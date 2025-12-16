@@ -13,5 +13,8 @@
     "gulp-sass": "^5.1.0",
     "gulp-sourcemaps": "^2.6.5",
     "gulp-open": "^3.0.1"
+  },
+  "scripts": {
+    "prepare:laravel12": "rm -rf integrations/laravel12/resources/vendor/paper-dashboard/assets && mkdir -p integrations/laravel12/resources/vendor/paper-dashboard && cp -r assets integrations/laravel12/resources/vendor/paper-dashboard/"
   }
 }
